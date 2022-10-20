@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --Cyan: hsl(179, 62%, 43%);
+    --Bright-Yellow: hsl(71, 73%, 54%);
+    --Light-Gray: hsl(204, 43%, 93%);
+    --Grayish-Blue: hsl(218, 22%, 67%);
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Karla', sans-serif;
+    background-color: var(--Light-Gray);
+    display: flex;
+    padding: 90px;
+    height: 100vh;
+}
+
+.card{
+    width: 780%;
+    height: 150px;
+    padding: 10px;
+    border-radius: 2rem;
+}
+
+.first-container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.main-title{
+    margin-left: 30px;
+    margin-top: 10px;
+    color: var(--Cyan);
+}
+
+.para1{
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 27px;
+    color: var(--Bright-Yellow);
+}
+
+.para2{
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: var(--Grayish-Blue);
+    line-height: 2rem;
+}
+
+.left-container{
+    background-color: var(--Cyan);
+    padding-top: 30px;
+    height: 280px;
+    padding-left: 70px;
+}
+
+.second-title{
+   font-size: 25px;
+   margin-bottom: 20px;
+   color: white;
+}
+
+.para3{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+
+.para4{
+    margin-top: 10px;
+    color: white;
+}
+
+.para5{
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.button{
+   margin-top: 20px;
+   width: 390px;
+   padding: 25px;
+   font-weight: 700;
+   border: none;
+   font-size: 25px;
+   color: black;
+   background-color: var(--Bright-Yellow);
+   border-radius: 10px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.arrtibute{
+    display: flex;
+    gap: 2rem
+}
+
+.right-container{
+    background-color: violet;
+    padding: 25px;
+    padding-left: 80px;
+    height: 340px;
+}
+
+.para6{
+    margin-top: 30px;
+    font-size: 22.6px;
+    letter-spacing: 1px;
+    padding-right: 70px;
+    line-height: 2rem;
+    padding-bottom: 3rem;
+    margin-bottom: 30px;
+}
+
+@media screen (max-width:768px){
+    
+}
+
+
+
+
+
